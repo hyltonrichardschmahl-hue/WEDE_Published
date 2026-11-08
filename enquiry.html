@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Dress Consultation | Ebeth Dress Designs</title>
+    <meta name="description" content="Book your first dress appointment with Ebeth Dress Designs in Hillcrest. Choose a date and time, and we will reply with the cost and availability.">
+    <link rel="canonical" href="https://www.ebethdressdesigns.co.za/enquiry">
+    <link rel="stylesheet" href="styles.css">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ebeth Dress Designs">
+    <meta property="og:locale" content="en_ZA">
+    <meta property="og:title" content="Book a Dress Consultation | Ebeth Dress Designs">
+    <meta property="og:description" content="Book your first dress appointment with Ebeth Dress Designs in Hillcrest. Choose a date and time, and we will reply with the cost and availability.">
+    <meta property="og:url" content="https://www.ebethdressdesigns.co.za/enquiry">
+    <meta property="og:image" content="https://www.ebethdressdesigns.co.za/_images/ebeth-dress-designs-logo.png">
+</head>
+<body>
+    <header>
+        <img id="logo" src="_images/ebeth-dress-designs-logo.png" alt="Ebeth Dress Designs logo">
+        <nav id="topNav">
+                <ul><a href="index.html">Homepage</a></ul>
+                <ul><a href="about.html">About Us</a></ul>
+                <ul><a href="services.html">Services &amp; Packages</a></ul>
+                <ul><a href="contact.html">Contact Us</a></ul>
+                <ul class="currentPage"><a>Enquiries</a></ul>
+        </nav>
+    </header>
+
+    <br>
+    <div id="wrapper">
+        <main id="enquiry">
+
+            <section class="formSection">
+                <h1>Book a Dress Consultation in Hillcrest</h1>
+                <h2>Book Your First Appointment</h2>
+                <p class="formIntro">Tell us what you are interested in and choose a date. We will check that the date is free and reply with the cost and availability. Appointments need at least 3 days notice and are not available on Sundays.</p>
+
+                <form id="enquiryForm" class="siteForm" novalidate>
+
+                    <div class="formGroup">
+                        <label for="enqName">Full name</label>
+                        <input type="text" id="enqName" name="name" data-validate="name" autocomplete="name" required minlength="2" maxlength="50">
+                        <span class="errorMsg" id="enqNameError" role="alert"></span>
+                    </div>
+
+                    <div class="formGroup">
+                        <label for="enqEmail">Email address</label>
+                        <input type="email" id="enqEmail" name="email" data-validate="email" autocomplete="email" required>
+                        <span class="errorMsg" id="enqEmailError" role="alert"></span>
+                    </div>
+
+                    <div class="formGroup">
+                        <label for="enqPhone">Phone number</label>
+                        <input type="tel" id="enqPhone" name="phone" data-validate="phone" autocomplete="tel" placeholder="012 345 7890" required>
+                        <span class="errorMsg" id="enqPhoneError" role="alert"></span>
+                    </div>
+
+                    <div class="formGroup">
+                        <label for="enquiryType">What is your enquiry about?</label>
+                        <select id="enquiryType" name="enquiryType" required>
+                            <option value="">Select one...</option>
+                            <option value="services">Services &amp; packages</option>
+                            <option value="products">Products</option>
+                            <option value="volunteering">Becoming a volunteer</option>
+                            <option value="sponsorship">Becoming a sponsor</option>
+                        </select>
+                        <span class="errorMsg" id="enquiryTypeError" role="alert"></span>
+                    </div>
+
+                    <div class="formGroup">
+                        <label for="appointmentDate">Preferred date for your first appointment</label>
+                        <input type="date" id="appointmentDate" name="appointmentDate" data-validate="date" required>
+                        <span class="hint">Monday to Saturday, at least 3 days from today.</span>
+                        <span class="errorMsg" id="appointmentDateError" role="alert"></span>
+                    </div>
+
+                    <div class="formGroup">
+                        <label for="timeSlot">Preferred time</label>
+                        <select id="timeSlot" name="timeSlot" required>
+                            <option value="">Select one...</option>
+                            <option value="Morning">Morning (09:00 - 12:00)</option>
+                            <option value="Afternoon">Afternoon (12:00 - 16:00)</option>
+                        </select>
+                        <span class="errorMsg" id="timeSlotError" role="alert"></span>
+                    </div>
+
+                    <div class="formGroup">
+                        <label for="enqDetails">Anything we should know? (optional)</label>
+                        <textarea id="enqDetails" name="details" maxlength="500"></textarea>
+                        <span class="errorMsg" id="enqDetailsError" role="alert"></span>
+                    </div>
+
+                    <div class="formGroup checkGroup">
+                        <input type="checkbox" id="enqConsent" name="consent" required data-required-msg="You must agree before sending your request.">
+                        <label for="enqConsent">I agree to Ebeth Dress Designs contacting me about this enquiry.</label>
+                        <span class="errorMsg" id="enqConsentError" role="alert"></span>
+                    </div>
+
+                    <button type="submit" id="enquirySubmit">Request appointment</button>
+                </form>
+
+                <div id="enquiryResponse" class="formResponse hidden" role="status" tabindex="-1"></div>
+            </section>
+
+        </main>
+
+        <br>
+        <br>
+        <br>
+
+        <footer>
+            <div id="footerLeft">
+                <p>
+                    <strong>Copyright for Ebeth Dress Designs</strong>
+                    <br>
+                    <br>
+                    &copy; Ebeth Dress Designs 2026. All Rights Reserved. All designs, images, content and materials on this website are the property of Ebeth Dress Designs unless otherwise stated.
+                </p>
+            </div>
+            <div id="footerCenter">
+                <p>
+                    <strong>Navigation Menu</strong>
+                </p>
+        <nav id="botNav">
+                <ul><a href="index.html">Homepage</a></ul>
+                <ul><a href="about.html">About Us</a></ul>
+                <ul><a href="services.html">Services &amp; Packages</a></ul>
+                <ul><a href="contact.html">Contact Us</a></ul>
+                <ul class="currentPage">Enquiries</ul>
+        </nav>
+            </div>
+            <div id="footerRight">
+                <p>
+                    <strong>Contact Information</strong>
+                    <br>
+                    <br>
+                    Phone Number: 012 345 7890
+                    <br>
+                    <br>
+                    E-Mail: Someone@gmail.com
+                    <br>
+                    <br>
+                    20 Hospital Road, Hillcrest, KwaZulu-Natal
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="forms.js"></script>
+    <script src="enquiry.js"></script>
+</body>
+</html>
