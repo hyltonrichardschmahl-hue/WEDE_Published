@@ -1,0 +1,21 @@
+{
+  // Name of the project on Cloudflare. It also sets your default address:
+  // ebeth-dress-designs.<your-subdomain>.workers.dev
+  "name": "ebeth-dress-designs",
+
+  // Date this config was written. Wrangler uses it to pick runtime behaviour.
+  "compatibility_date": "2026-11-08",
+
+  "assets": {
+    // "./" means the project root (the folder that contains index.html).
+    // Files you don't want public are listed in .assetsignore.
+    "directory": "./"
+  }
+
+  // Once your own domain is on Cloudflare, remove the // from the lines below
+  // and replace the domain. Add a comma after the "assets" block's closing brace above.
+  // ,"routes": [
+  //   { "pattern": "ebethdressdesigns.co.za", "custom_domain": true },
+  //   { "pattern": "www.ebethdressdesigns.co.za", "custom_domain": true }
+  // ]
+}
