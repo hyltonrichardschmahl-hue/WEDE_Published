@@ -1,7 +1,7 @@
 {
   // Name of the project on Cloudflare. It also sets your default address:
   // ebeth-dress-designs.<your-subdomain>.workers.dev
-  "name": "ebeth-dress-designs",
+  "name": "wede-published",
 
   // Date this config was written. Wrangler uses it to pick runtime behaviour.
   "compatibility_date": "2026-11-08",
