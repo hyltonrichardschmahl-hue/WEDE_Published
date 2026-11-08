@@ -9,7 +9,7 @@
   "assets": {
     // "./" means the project root (the folder that contains index.html).
     // Files you don't want public are listed in .assetsignore.
-    "directory": "./public"
+    "directory": "./_images"
   }
 
   // Once your own domain is on Cloudflare, remove the // from the lines below
