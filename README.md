@@ -45,7 +45,7 @@ Part 1 focuses on the research, planning and initial development of the website 
 
 ### Sitemaps
 
-![Sitemap](_images/Sitemap.png)
+![Sitemap](images/Sitemap.png)
 
 ### Changelog
 
