@@ -134,12 +134,51 @@ Part 1 focuses on the research, planning and initial development of the website 
 - Completed all styling and responsive design for all pages
 - Completed requirements for part 2
 
+27 October 2026
+
+- Added all of the forms into the contact and enquiries pages
+- Added all validation using JavaScript, jQuery and JSON files
+
+8 November 2026
+
+- Added in-depth alt tags for images for initial SEO
+- Added descriptions for each page in order to optimise SEO
+- Added the actual phone number and added the final SEO HTML to pages
+- Added SEO into the packages pages and added the sitemap, _headers and robots.txt files to the project
+- Moved files into the main root folder to help with deployment
+- Completed changes that allow the website to be published correctly
+- Removed files that were no longer needed
+
+9 November 2026
+
+- Changed all the contact information to the correct information
+- Matched the full local version of the code to the published website
+- Added the gallery page and removed the old images folder
+- Completed all changes and additions associated with the new gallery page
+- Fully completed navigation updates, with the search and filter feature added to the services page
+- Updated the domain address
+- Added blurred faces to the images
+
 ### References
-
-GitHub. 2026. Basic writing and formatting syntax. [Online]. Available at:(https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) [Accessed 26 August 2026].
-
-W3Schools. 2026. HTML Tutorial. [Online]. Available at: (https://www.w3schools.com/html/?) [Accessed 27 August 2026].
 
 Cloudinary. 2025. 4 Ways to Add Images to GitHub README + 1 Bonus Method. [Online]. Available at: https://cloudinary.com/guides/web-performance/4-ways-to-add-images-to-github-readme-1-bonus-method [Accessed 30 August 2026].
 
+GitHub. 2026. Basic writing and formatting syntax. [Online]. Available at: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax [Accessed 26 August 2026].
 
+Google Search Central. 2026a. Build and submit a sitemap. [Online]. Available at: https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap [Accessed 9 November 2026].
+
+Google Search Central. 2026b. Introduction to robots.txt. [Online]. Available at: https://developers.google.com/search/docs/crawling-indexing/robots/intro [Accessed 9 November 2026].
+
+Google Search Central. 2026c. SEO Starter Guide: The Basics. [Online]. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide [Accessed 9 November 2026].
+
+MDN Web Docs. 2026a. Client-side form validation. [Online]. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation [Accessed 9 November 2026].
+
+MDN Web Docs. 2026b. Working with JSON. [Online]. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON [Accessed 9 November 2026].
+
+OpenJS Foundation. 2026. jQuery API Documentation. [Online]. Available at: https://api.jquery.com/ [Accessed 9 November 2026].
+
+W3C Web Accessibility Initiative (WAI). 2026. An alt Decision Tree. [Online]. Available at: https://www.w3.org/WAI/tutorials/images/decision-tree/ [Accessed 9 November 2026].
+
+W3Schools. 2026a. HTML Tutorial. [Online]. Available at: https://www.w3schools.com/html/ [Accessed 27 August 2026].
+
+W3Schools. 2026b. How TO - Lightbox. [Online]. Available at: https://www.w3schools.com/howto/howto_js_lightbox.asp [Accessed 9 November 2026].
