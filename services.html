@@ -22,7 +22,8 @@
         <nav id="topNav">
                 <ul><a href="index.html">Homepage</a></ul>
                 <ul><a href="about.html">About Us</a></ul>
-                <ul class="currentPage"><a>Services &amp; Packages</a></ul>
+                <ul class="currentPage"><a>Services</a></ul>
+                <ul><a href="gallery.html">Gallery</a></ul>
                 <ul><a href="contact.html">Contact Us</a></ul>
                 <ul><a href="enquiry.html">Enquiries</a></ul>
         </nav>
@@ -30,8 +31,25 @@
 
     <br>
     <div id="wrapper">
+        <div id="filterBar">
+            <div class="filterGroup">
+                <label for="searchBox">Search Services</label>
+                <input type="text" id="searchBox" placeholder="e.g. wedding, matric, alterations">
+            </div>
+            <div class="filterGroup">
+                <label for="priceFilter">Price Per Hour</label>
+                <select id="priceFilter">
+                    <option value="all">All Prices</option>
+                    <option value="low">Up to R250</option>
+                    <option value="high">R300 and above</option>
+                </select>
+            </div>
+        </div>
+
+        <p id="noResults" class="hidden">Sorry, no services match your search. Please try a different word or filter.</p>
+
         <main id="services">
-        <div class="serviceCard">
+        <div class="serviceCard" data-price="300">
             <img src="images/bride-holding-flowers-outdoors.jpeg" alt="Bride holding flowers outdoors in a custom wedding dress" height="400" width="350">
             <h3>Wedding Dress</h3>
             <p>R300 - R400 per hour</p>
@@ -39,9 +57,7 @@
                 <button>View Wedding Dress Package</button>
             </a>
         </div>
-        <br>
-        <br>
-        <div class="serviceCard">
+        <div class="serviceCard" data-price="300">
             <img src="images/blue-matric-dance-dress.jpeg" alt="Blue low-cut matric dance dress made by Ebeth Dress Designs" height="400" width="300" loading="lazy">
             <h3>Matric Dance Dress</h3>
             <p>R300 per hour</p>
@@ -49,9 +65,7 @@
                 <button>View Matric Dress Package</button>
             </a>
         </div>
-        <br>
-        <br>
-        <div class="serviceCard">
+        <div class="serviceCard" data-price="250">
             <img src="images/bride-and-groom-green-suit.jpeg" alt="Bride and groom in a green suit holding flowers" height="400" width="300" loading="lazy">
             <h3>Formal Wear</h3>
             <p>R250 per hour</p>
@@ -59,9 +73,7 @@
                 <button>View Formal Wear Package</button>
             </a>
         </div>
-        <br>
-        <br>
-        <div class="serviceCard">
+        <div class="serviceCard" data-price="200">
             <img src="images/bride-holding-bouquet-red-hair.jpeg" alt="Bride holding a bouquet in a wedding dress fitted by Ebeth Dress Designs" height="400" width="300" loading="lazy">
             <h3>Dress Alterations</h3>
             <p>R200 per hour</p>
@@ -69,8 +81,6 @@
                 <button>View Alterations Package</button>
             </a>
         </div>
-        <br>
-        <br>
         </main>
 
         <br>
@@ -93,7 +103,8 @@
         <nav id="botNav">
                 <ul><a href="index.html">Homepage</a></ul>
                 <ul><a href="about.html">About Us</a></ul>
-                <ul class="currentPage">Services &amp; Packages</ul>
+                <ul class="currentPage">Services</ul>
+                <ul><a href="gallery.html">Gallery</a></ul>
                 <ul><a href="contact.html">Contact Us</a></ul>
                 <ul><a href="enquiry.html">Enquiries</a></ul>
         </nav>
@@ -106,7 +117,7 @@
                     Phone Number: 066 337 6829
                     <br>
                     <br>
-                    E-Mail: Someone@gmail.com
+                    E-Mail: ebeth.higham56@gmail.com
                     <br>
                     <br>
                     20 Hospital Road, Hillcrest, KwaZulu-Natal
@@ -114,6 +125,8 @@
             </div>
         </footer>
     </div>
+
+    <script src="services.js"></script>
 </body>
 </html>
 
